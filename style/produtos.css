@@ -8,7 +8,6 @@
 }
 
 .grid-img {
-    box-shadow: 0 0 1px 1px;
     height: 424px;
     width: 350px;
     margin-top: 45px;
@@ -23,7 +22,7 @@
 .grid-img-extra {
     height: 70px;
     width: 350px;
-    box-shadow: 0 0 1px 1px;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,13 +35,112 @@
 }
 
 .grid-text {
-    box-shadow: 0 0 1px 1px;
     margin-top: 45px;
+    height: 500px;
+    width: 400px;
+    margin-left: 25px;
+}
+
+.grid-text-logo {
+    height: 60px;
+    width: 60px;
+}
+
+.grid-text-logo img {
+    height: 100%;
+    width: 100%;
+}
+
+.grid-text-title {
+    height: 100px;
+    width: 100%;
+}
+
+.grid-text-title p {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.grid-text-desc {
+    height:310px;
+    width: 100%;
+}
+
+.grid-text-desc p {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.grid-buy {
+    margin-top: 45px;
+    margin-left: 75px;
     height: 500px;
     width: 400px;
 }
 
-.grid-text-logo {
-    box-shadow: 0 0 1px 1px;
-    
+.grid-buy-po {
+    height: 55px;
+    width: 100%;
+}
+
+.grid-buy-po p {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 16px;
+    text-decoration: line-through;
+    color: rgb(88, 88, 88);
+    margin: 0;
+}
+
+.grid-buy-pf {
+    height: 55px;
+    width: 100%;
+}
+
+.grid-buy-pf p {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #E53935;
+    margin: 0;
+}
+
+.grid-buy-button {
+    background-color: #E53935;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    height: 60px;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 150px;
+}
+
+.grid-buy-button img {
+    height: 35px;
+    width: 35px;
+}
+
+.grid-cart-button {
+    background-color: #E53935;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    height: 60px;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px
+}
+
+.grid-cart-button img {
+    height: 35px;
+    width: 35px;
 }
